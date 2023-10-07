@@ -1,0 +1,163 @@
+.clearboth{
+    clear:both;
+}
+*{margin:0;
+    padding: 0;}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(175, 175, 175);
+}
+.header, .footer{
+    margin:4px;
+    padding: 4px;
+    
+}
+
+.header, .footer{
+    border-radius: 4px;
+    background-color: #4caf50;
+}
+
+.container{
+    margin:250px auto;
+    padding: 4px;
+    width: 600px;
+    background-color: #fff;;
+ 
+    
+}
+
+.header{
+    padding: 4px;
+    text-align:center;
+    color: #fff;
+    
+}
+
+.header h1{
+    font-size: 12px;
+}
+
+.sidebar{
+    width: 175px;
+    float:left;
+    margin: 0 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 2px;
+    
+}
+
+
+.sidebar ul{
+    list-style: none;
+    display: block;
+    background-color: #00bcd4;
+    border-radius: 4px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 1s;
+    
+    padding: 4px;
+
+}
+.sidebar ul li a:hover{
+    border-radius: 10px;
+    background-color: #ff9800;
+
+}
+.sidewrap{
+   margin-top: 2px;
+    text-align: center;
+    font-size: small;
+    
+}
+.content h3, .sidebar h3, .wraplogin h3{
+    font-size:12px;
+    text-align: center;
+    color:#fff;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: #00bcd4;
+    width: auto;
+  
+}
+.content{
+    float: right;
+   overflow: auto;
+    width:400px;
+    margin: 0 4px;
+    padding: 2px;
+    
+}
+
+
+.content p{
+    padding: 2px;
+}
+.footer{
+    padding: 4px;
+    text-align: center;
+    color:#f2f2f2;
+    
+}
+
+.btn{
+    padding: 8px;
+    width: 20%;
+    background-color: rgb(0, 120, 233);
+    color:#fff;
+    border:none;
+    border-radius: 4px;
+    margin: 4px;
+}
+.btn:hover{
+    background-color: #ff9800;
+
+}
+.btnwrap{
+   
+    height: auto;
+    width: auto;
+    margin:0 auto;
+    margin-left: 80px;
+}
+.inp{
+    
+    width: auto;
+    padding: 4px;
+    margin: 2px;;
+    background-color: rgb(180, 180, 180);
+    border: none;
+    border-radius: 4px;
+    display: block;
+}
+#viewdata {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #viewdata td, #viewdata th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width:auto;
+  }
+  
+  #viewdata tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #viewdata tr:hover {background-color: #ddd;}
+  
+  #viewdata th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
